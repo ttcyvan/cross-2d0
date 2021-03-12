@@ -1,8 +1,0 @@
-version: '3.7'
-services:
-  backend:
-    build:
-      dockerfile: ./docker/Dockerfile
-      context: ../
-    image: efrei/cross_2do
-    container_name: cross_2do
